@@ -51,29 +51,32 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: #5e5e5e;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
-  color: white;
+  /*background-color: #18BC9C;*/
+  background-color: white;
+  color: #5e5e5e;
 }
 hr.star-primary {
   border-color: #2C3E50;
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: black;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  /*background: #18BC9C;*/
+  background: white;
+  color: black;
 }
 header .container {
-  padding-top: 100px;
+  /*padding-top: 100px;*/
+  padding-top: 80px;
   padding-bottom: 50px;
 }
 header img {
@@ -83,7 +86,7 @@ header img {
 header .intro-text .name {
   display: block;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   font-weight: 700;
   font-size: 2em;
 }
@@ -107,7 +110,8 @@ header .intro-text .skills {
   background: #2C3E50;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  /*font-weight: 700;*/
+  font-weight: 500;
   border: none;
 }
 .navbar-custom a:focus {
@@ -123,13 +127,15 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav {
-  letter-spacing: 1px;
+  /*letter-spacing: 1px;*/
+  letter-spacing: 0.5;
 }
 .navbar-custom .navbar-nav li a {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  /*color: #18BC9C;*/
+  color: firebrick;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -138,13 +144,14 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-nav li.active a {
   color: white;
-  background: #18BC9C;
+  background: firebrick;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
   color: white;
-  background: #18BC9C;
+  /*background: #18BC9C;*/
+  background: firebrick;
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -186,8 +193,9 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  /*background: #18BC9C;*/
+  background: white;
+  color: black;
 }
 @media (max-width: 767px) {
   section {
